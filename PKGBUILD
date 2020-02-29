@@ -18,7 +18,7 @@ ros_makedepends=(ros-melodic-libviso2
   ros-melodic-tf
   ros-melodic-image-transport
   ros-melodic-message-filters)
-makedepends=('cmake' 'ros-build-tools' 'boost-libs' 'opencv'
+makedepends=('cmake' 'ros-build-tools' 'boost-libs' 'opencv' 'git'
   ${ros_makedepends[@]})
 
 ros_depends=(ros-melodic-libviso2
